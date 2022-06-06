@@ -1,0 +1,100 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+	position: relative;
+	width: 325px;
+	margin: 0;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 10px 0 10px;
+}
+
+.header {
+	background-image: url("./tweet-blocker.png");
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.description {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.divider {
+	width: 100%;
+	color: #868e96;
+}
+
+.button-container {
+	margin: 5px 0;
+	width: fit-content;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.input-wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.input-icons {
+	position: absolute;
+	right: 25px;
+	display: flex;
+	align-items: center;
+}
+
+.input-icons:not(:last-child) {
+	margin-right: 10px;
+}
+
+.field-wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.field-wrapper:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.field-input {
+	outline: none;
+	padding: 7px 3px 3px 6px;
+	width: 205px;
+	font-size: 16px;
+}
+
+.field-value {
+	overflow: hidden;
+	border: 1px solid #868e96;
+	border-radius: 3px;
+	font-size: 16px;
+	padding: 7px 3px 3px 6px;
+	width: 205px;
+}
+
+.remove-field-icon {
+	position: absolute;
+	right: 25px;
+}
+
+.checkmark-margin {
+	margin-right: 12px;
+}

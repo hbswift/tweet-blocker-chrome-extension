@@ -1,0 +1,43 @@
+{
+	"name": "tweet-blocker",
+	"version": "0.1.0",
+	"description": "block tweets containing specfic text",
+	"main": "index.js",
+	"scripts": {
+		"watch": "webpack --config webpack/webpack.dev.js --watch",
+		"build": "webpack --config webpack/webpack.prod.js",
+		"clean": "rimraf dist",
+		"test": "npx jest",
+		"style": "prettier --write \"src/**/*.{ts,tsx}\""
+	},
+	"author": "hbswift",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hbswift/tweet-blocker-chrome-extension.git"
+	},
+	"engines": {
+		"node": "16.15.0"
+	},
+	"dependencies": {
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0"
+	},
+	"devDependencies": {
+		"@types/chrome": "0.0.158",
+		"@types/jest": "^27.0.2",
+		"@types/react": "^18.0.10",
+		"@types/react-dom": "^18.0.5",
+		"copy-webpack-plugin": "^9.0.1",
+		"glob": "^7.1.6",
+		"jest": "^27.2.1",
+		"prettier": "^2.2.1",
+		"rimraf": "^3.0.2 ",
+		"ts-jest": "^27.0.5",
+		"ts-loader": "^8.0.0",
+		"typescript": "^4.4.3 ",
+		"webpack": "^5.61.0",
+		"webpack-cli": "^4.0.0",
+		"webpack-merge": "^5.0.0"
+	}
+}

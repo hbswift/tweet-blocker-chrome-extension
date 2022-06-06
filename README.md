@@ -1,4 +1,4 @@
-# Tweet Block Chrome Extension
+# Tweet Blocker Chrome Extension
 
 This is a chrome extension that allows you to filter out tweets via user input.
 
